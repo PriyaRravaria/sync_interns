@@ -1,0 +1,58 @@
+.communication {
+    margin: 20px;
+    padding: 20px;
+    background-color: #9579d6;
+    border-radius: 5px;
+  }
+  
+  .communication h2 {
+    margin-top: 0;
+  }
+  
+  .communication form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .communication form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .communication form input,
+  .communication form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .communication form input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+  }
+  
+  .communication form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .communication .messages {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#a3b0ed;
+    border-radius: 5px;
+    overflow-y: scroll;
+    max-height: 200px;
+  }
+  
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width:100%;
+    background-color: #a3b0ed;
+    font-size: larger;
+    font-weight: bold;
+  }
